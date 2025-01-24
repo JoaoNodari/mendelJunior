@@ -1,8 +1,0 @@
-@keyframes blink {
-    from {
-        border-right-color: #333;
-    }
-    to {
-        border-right-color: transparent;
-    }
-}
