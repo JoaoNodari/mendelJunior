@@ -1,13 +1,11 @@
 header {
-    width: 80%;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 30px;
-    position: fixed;
-    left: 10%;
-    margin-top: 10px;
+    margin: auto;
+    background-color: #333;
 }
 
 header .title {
@@ -84,4 +82,35 @@ main .container-about-me .information .contact {
 main .container-about-me .information .contact:hover {
     border: 1px solid #007bc7;
     color: #FFF;
+}
+
+/* SECTION SKILLS */
+
+.skills {
+    background-color: #007bc7;
+    color: #000;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills .list-skills {
+    width: 350px;
+    border: 1px solid blue;
+}
+
+.skills .list-skills .item-skill h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.skills .list-skills .item-skill p {
+    text-align: justify;
+}
+
+.skills .list-skills .item-skill h2 {
+    color: #000;
 }
