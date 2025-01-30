@@ -1,0 +1,14 @@
+@media (max-width: 393px) {
+    header .menu {
+        display: none;
+    }
+
+    .container-about-me {
+        flex-direction: column;
+    }
+
+    .container-about-me .image img {
+        width: 350px;
+    }
+
+}
